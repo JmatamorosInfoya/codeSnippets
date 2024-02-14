@@ -1,0 +1,24 @@
+{
+  "name": "feature-ext-suggestions",
+  "displayName": "feature-lines-suggestions-ext",
+  "description": "Snippeds for auto generate Then statements",
+  "version": "0.0.1",
+  "publisher": "jorgeivan",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "cucumber",
+        "path": "./snippets/feature-sugestions.json"
+      }
+    ]
+  },
+  "ignoreWarnings": [
+    "Make sure to edit the README.md file before you package or publish your extension."
+  ]
+}

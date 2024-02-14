@@ -1,0 +1,15 @@
+{
+  "ClickOnButon": {
+    "prefix": "the user clicks on text",
+    "body": [
+      "Then the user clicks on text \"${1:Button Name}\""
+    ],
+    "description": "Creates test step to click on a button"
+  },"DefineFeature": {
+    "prefix": "Feature: Verify \"${1:Feature Name}\" ",
+    "body": [
+      "Feature: Verify \"${1:Feature Name}\""
+    ],
+    "description": "Defines a new feature name"
+  }
+}
